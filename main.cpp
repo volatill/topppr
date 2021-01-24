@@ -236,7 +236,7 @@ int main(int argc, char *argv[]){
 			cout << "avg abserr: " << err / (double) node_count << endl;
             cout << "avg precision: " << ppr.avg_pre / (double) node_count << endl;
             cout << "avg NDCG: " << ppr.avg_NDCG / (double) node_count << endl;
-            cout << "total time: " << ppr.avg_time<< endl;
+            cout << "total time: " << ppr.avg_time/node_count*realCount<< endl;
             ppr.avg_time = 0;   
             ppr.avg_pre = 0; 
         }
