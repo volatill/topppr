@@ -1,7 +1,7 @@
 #!/bin/bash
 
 file=$1
-dataset_array=("webstanford" "dblp") #"pokec" "lj" "orkut" "twitter")
+dataset_array=("webstanford" "dblp" "pokec" "lj" "orkut" "twitter")
 mkdir ppr-answer
 for dataset in "${dataset_array[@]}"; do
 	mkdir ppr-answer/${dataset}
