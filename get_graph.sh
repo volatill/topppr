@@ -9,5 +9,5 @@ for dataset in "${dataset_array[@]}"; do
 	cp ../../${file}/data/${dataset}/graph.txt dataset/${dataset}.txt
 	sed -i "1i${n}" dataset/${dataset}.txt
  	./TopPPR -d ${dataset} -algo GEN_QUERY -n 100
-	./TopPPR -d ${dataset} -algo GEN_GROUND_TRUTH	-n 100
+	#./TopPPR -d ${dataset} -algo GEN_GROUND_TRUTH	-n 80
 done
