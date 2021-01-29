@@ -1,7 +1,7 @@
 #!/bin/bash
 
 file=$1
-dataset_array=("dblp") #"pokec" "lj" "orkut" "twitter")
+dataset_array=("dblp" "lj") #"pokec" "lj" "orkut" "twitter")
 workload_array=("20" "50" "80")
 mkdir topppr_result
 for dataset in "${dataset_array[@]}"; do

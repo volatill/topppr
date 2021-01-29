@@ -152,7 +152,7 @@ int main(int argc, char *argv[]){
             cout << "please generate query file first" << endl;
         }
         else
-            ppr.PowerMethodMulti(80, node_count, 10);/*  多线程PowerMethparameter: iteration loops, node size, thread num */
+            ppr.PowerMethodMulti(100, node_count, 10);/*  多线程PowerMethparameter: iteration loops, node size, thread num */
     }
     else{
 		double err=0;
